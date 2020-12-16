@@ -1,4 +1,8 @@
-.grid{
+body {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.grid {
     display: flex;
     flex-wrap: wrap;
     width: 560px;
@@ -6,27 +10,47 @@
     border: solid black;
 }
 
-.grid div{
+.grid div {
     width: 20px;
     height: 20px;
 }
 
-.pac-dot{
-    background-color: green;
+.pac-dot {
+    background-color: #529AD9;
     border: 5px solid white;
     box-sizing: border-box;
 }
 
-.wall{
-    background-color: blue;
+.wall {
+    background-color: black;
 }
 
-.power-pellet{
-    background-color: green;
+.power-pellet {
+    background-color: #1B52FA;
     border-radius: 10px;
 }
 
-.pac-man{
-   background-color: yellow;
-   border-radius: 10px; 
+.blinky {
+    background-color: #A8FA41;
+}
+
+.pinky {
+    background-color: #FA2867;
+}
+
+.inky {
+    background-color: #D61BFA;
+}
+
+.clyde {
+    background-color: #FA5D34;
+}
+
+.pac-man {
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+.scared-ghost {
+    background-color: #D61BFA;
 }
